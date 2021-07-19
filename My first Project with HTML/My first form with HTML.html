@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+      <head>
+          <meta charset = "utf-8">
+		  <title> creating form </title>
+	  </head>
+	     <hr><h1 style = "text-align:center ; background-color:#0D7578 ; font-family:fantasy;color:white"> Registation form </h1></hr>
+	  <body style = "background-color : #0CE7C6">
+	     <form> 
+			<div>
+		    <label for ="fullname">Fullname:</label>
+			<input type ="text" name = "fullname" id="fullname" required> /*name and id for use of backend*/
+		    </div><p>
+			
+			<div>
+		    <label for ="Email">Email:</label>
+			<input type ="email" name = "email" id="email"> 
+		    </div><p>
+			
+			<div>
+		    <label for ="password">password:</label>
+			<input type ="password" name = "password" id="password"> 
+		    </div><p>
+			
+			<div>
+		    <label for ="dov">Date of Bith :</label>
+			<input type ="date" name = "dov" id="dov"> 
+		    </div><p>
+			
+			<div>
+		    <label for ="pht">choose your image :</label>
+			<input type ="file" name = "pht" id="pht">
+			</div><p>
+			
+			<div>
+		    <label for ="gen">gender :</label>
+			<input type ="radio" name = "gen" id="gen" value = "Male"> Male
+			<input type ="radio" name = "gen" id="gen" value = "Female"> Female 
+			<input type ="radio" name = "gen" id="gen" value = "Others"> others 
+		    </div></p>
+			
+			<div>
+		    <label for ="chkb">religion :</label>
+			<input type ="checkbox" name = "chkb" id="chkb" value ="Islamic"> Islamic 
+			<input checked type ="checkbox" name = "chkb" id="chkb" value ="Hindu"> Hindu 
+			<input type ="checkbox" name = "chkb" id="chkb" value ="others"> Others 
+			</div><p>
+			
+			<div>
+			 <label for = "department">Department :</label>
+				<Select name ="department">
+				  <option value = "CSE" selected>CSE</option>
+				   <option value = "Civil">Civil</option>
+				    <option value = "Pharmacy">Pharmacy</option>
+					 <option value = "EEE">EEE</option>
+					  <option value = "LAW">LAW</option>
+				</select>
+			</div>
+			
+			<div>
+			 <label for = "Message">Message :</label><p>
+			 <textarea cols = "40" rows ="20"></textarea>
+			</div>
+			
+			
+			<div>
+			<input type = "submit" value = "registered">
+			<input type = "submit" value = "reset" >
+			</div><p>
+		<div>
+			<label for = "srch"> search :</label>
+			<input type = "search" name = "srch" id="srch"> 
+			<input type = "button" value = "Goo">
+			</div><p>
+			
+			<div>
+			<input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><p>
+			 <small>Format: 123-45-678</small><p> 
+			</div>
+			
+			<div>
+			   <input type="submit">
+			</div>
+		 </form>
+	  
+	  
+	  </body>
+</html>
